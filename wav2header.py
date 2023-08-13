@@ -6,7 +6,7 @@ wav_file = sys.argv[2]
 header_file = sys.argv[3]
 
 def frame2uint(data):
-    return "{:>5}".format(int.from_bytes(data[:2], "little", signed=True) + (1 << 15))
+    return "{:>3}".format((int.from_bytes(data[:2], "little", signed=True) >> 8) + (1 << 7))
 
 max_row_size = 15
 
@@ -31,5 +31,5 @@ with wave.open(wav_file, 'rb') as wav:
                     header.seek(header.tell() - 1)
                     header.write("\n  ")
                     row_size = 0
-        header.write(str(1 << 15))
+        header.write(str(1 << 7))
         header.write("};\n")
