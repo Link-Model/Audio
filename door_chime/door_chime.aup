@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="door_chime_data" version="1.3.0" audacityversion="2.3.3" sel0="0.0000000000" sel1="1.8430833333" vpos="0" h="1.1718820862" zoom="1378.1250000000" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="Software" value="Lavf59.27.100"/>
+	</tags>
+	<wavetrack name="Sound Transit Central Link： Northgate Bound 2011 Kinkisharyo LRV at SeaTac Airport Station [QLpDLy1RjQQ]" isSelected="0" height="150" minimized="0" channel="2" linked="0" mute="0" solo="1" rate="48000" gain="1.0" pan="-1.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="88468">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f6ea.au" len="88468" min="-0.49773" max="0.47127" rms="0.110522"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
